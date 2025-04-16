@@ -4,7 +4,7 @@ import boto3
 app = Flask(__name__)
 
 # Replace this with your target Slack channel ID
-ALLOWED_CHANNEL_ID = "<CHANNEL_ID>"
+ALLOWED_CHANNEL_ID = "C08AAHM3C8N"
 
 def get_ec2_client():
     """Create EC2 client."""
